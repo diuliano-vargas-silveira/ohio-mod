@@ -1,3 +1,6 @@
 {
-  "item.ohiomod.ruby": "Ruby"
+  "item.ohiomod.ruby": "Ruby",
+  "item.ohiomod.ruby_block": "Block of Ruby",
+
+  "itemgroup.ruby": "OhioMod"
 }

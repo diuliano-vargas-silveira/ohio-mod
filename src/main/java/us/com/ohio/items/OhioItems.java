@@ -30,7 +30,6 @@ public class OhioItems {
         OhioMod.LOGGER.info("Registering items for "+ OhioMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(OhioItems::addItemsToIngredientTabItemGroup);
-        registerItem("ohio_item", new Item(new Item.Settings()));
 
     }
 
