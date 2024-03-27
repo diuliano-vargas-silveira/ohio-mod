@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ohiomod:block/ruby_ore"
+    }
+  }
+}

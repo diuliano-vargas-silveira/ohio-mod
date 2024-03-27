@@ -14,8 +14,9 @@ public class OhioMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		OhioGroupItems.registerItemGroups();
+
 		OhioItems.registerItems();
 		OhioBlocks.registerBlocks();
-		OhioGroupItems.registerItemGroups();
 	}
 }

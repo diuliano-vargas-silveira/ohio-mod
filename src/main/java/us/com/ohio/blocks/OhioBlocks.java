@@ -16,6 +16,9 @@ public class OhioBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
+                    .sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

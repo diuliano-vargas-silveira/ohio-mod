@@ -19,6 +19,7 @@ public class OhioGroupItems {
                     .entries(((displayContext, entries) -> {
                         entries.add(OhioItems.RUBY);
                         entries.add(OhioBlocks.RUBY_BLOCK);
+                        entries.add(OhioBlocks.RUBY_ORE);
                     }))
                     .build());
 
