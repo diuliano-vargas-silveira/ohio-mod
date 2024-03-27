@@ -20,6 +20,7 @@ public class OhioGroupItems {
                         entries.add(OhioItems.RUBY);
                         entries.add(OhioBlocks.RUBY_BLOCK);
                         entries.add(OhioBlocks.RUBY_ORE);
+                        entries.add(OhioBlocks.DEEPSLATE_RUBY_ORE);
                     }))
                     .build());
 
