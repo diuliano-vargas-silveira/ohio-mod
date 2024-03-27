@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "ohiomod:ruby_ore",
-    "ohiomod:ruby_block"
+    "ohiomod:ruby_block",
+    "ohiomod:deepslate_ruby_ore"
   ]
 }
