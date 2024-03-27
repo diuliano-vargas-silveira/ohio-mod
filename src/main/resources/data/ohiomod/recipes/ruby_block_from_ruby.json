@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ohiomod:ruby"
+    }
+  },
+  "result": {
+    "item": "ohiomod:ruby_block"
+    }
+}

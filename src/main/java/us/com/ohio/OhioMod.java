@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import us.com.ohio.blocks.OhioBlocks;
+import us.com.ohio.items.OhioGroupItems;
 import us.com.ohio.items.OhioItems;
 
 public class OhioMod implements ModInitializer {
@@ -12,8 +14,9 @@ public class OhioMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!" + MOD_ID);
+		OhioGroupItems.registerItemGroups();
 
 		OhioItems.registerItems();
+		OhioBlocks.registerBlocks();
 	}
 }
